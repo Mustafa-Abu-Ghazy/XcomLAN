@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/mostafa.magdy/OneDrive - ELSEWEDY ELECTRIC/ITS Documents - Software Engineering team/Solar Photovoltaic (PV) Monitoring System/Coding Tests/solar-monitoring-system/venv/Lib/site-packages/sino</OriginalElement>
+  <nodes>
+    <node x="4110.180555555556" y="928.0">sino.scom.scom.Scom</node>
+    <node x="0.0" y="3287.0">sino.scom.exeptions.ResponseFrameException</node>
+    <node x="1635.5" y="1049.5">typing.Iterator</node>
+    <node x="3591.1805555555557" y="972.0">sino.scom.device.common.paramproxycontainer.ParamProxyContainer</node>
+    <node x="3236.1805555555557" y="1038.5">sino.scom.device.devicefactory.DeviceFactory</node>
+    <node x="439.5" y="1049.5">sino.scom.dman.devicenotifier.DeviceNotifier</node>
+    <node x="1943.375" y="1717.0">sino.scom.device.variopower.VarioPower</node>
+    <node x="1785.5" y="1060.5">typing.Iterable</node>
+    <node x="119.5" y="2368.0">Exception</node>
+    <node x="2518.375" y="1530.0">sino.scom.device.xtender.Xtender</node>
+    <node x="7.0" y="972.0">BaseException</node>
+    <node x="794.5" y="1038.0">sino.scom.dman.devicesubscriber.DeviceSubscriber</node>
+    <node x="2811.1805555555557" y="1016.0">sino.scom.device.common.paramproxycontainer._Param</node>
+    <node x="1503.75" y="2223.0">sino.scom.frame.Frame</node>
+    <node x="2203.1805555555557" y="697.0">sino.scom.device.scomdevice.ScomDevice</node>
+    <node x="240.5" y="1959.0">sino.scom.dman.devicemanager.DeviceManager</node>
+    <node x="1186.5" y="906.5">sino.scom.baseframe.BaseFrame</node>
+    <node x="2411.125" y="0.0">typing.Hashable</node>
+    <node x="2367.125" y="106.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sino.scom.dman.devicesubscriber.DeviceSubscriber" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="980.5" y="672.0" />
+      <point x="2482.625" y="672.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="sino.scom.device.scomdevice.ScomDevice" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-391.5" />
+      <point x="2497.1805555555557" y="672.0" />
+      <point x="2482.625" y="672.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-270.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="sino.scom.scom.Scom" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-160.5" />
+      <point x="4296.680555555556" y="672.0" />
+      <point x="2482.625" y="672.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="sino.scom.dman.devicemanager.DeviceManager" target="sino.scom.dman.devicenotifier.DeviceNotifier" relationship="REALIZATION">
+      <point x="0.0" y="-424.5" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="sino.scom.frame.Frame" target="typing.Iterator" relationship="INTERFACE">
+      <point x="61.25" y="-160.5" />
+      <point x="1687.5" y="1510.0" />
+      <point x="1776.0" y="1510.0" />
+      <point x="1776.0" y="1500.0" />
+      <point x="1700.5" y="1500.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="sino.scom.frame.Frame" target="typing.Iterable" relationship="INTERFACE">
+      <point x="61.25" y="-160.5" />
+      <point x="1687.5" y="1510.0" />
+      <point x="1776.0" y="1510.0" />
+      <point x="1776.0" y="1500.0" />
+      <point x="1851.5" y="1500.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="BaseException" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-116.5" />
+      <point x="170.0" y="672.0" />
+      <point x="2482.625" y="672.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="sino.scom.device.common.paramproxycontainer._Param" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-72.5" />
+      <point x="3013.6805555555557" y="672.0" />
+      <point x="2482.625" y="672.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="sino.scom.device.devicefactory.DeviceFactory" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="3403.6805555555557" y="672.0" />
+      <point x="2482.625" y="672.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="sino.scom.device.variopower.VarioPower" target="sino.scom.device.scomdevice.ScomDevice" relationship="REALIZATION">
+      <point x="0.0" y="-666.5" />
+      <point x="2220.875" y="1510.0" />
+      <point x="2497.1805555555557" y="1510.0" />
+      <point x="0.0" y="391.5" />
+    </edge>
+    <edge source="sino.scom.exeptions.ResponseFrameException" target="Exception" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="sino.scom.device.common.paramproxycontainer.ParamProxyContainer" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-116.5" />
+      <point x="3840.6805555555557" y="672.0" />
+      <point x="2482.625" y="672.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="sino.scom.device.xtender.Xtender" target="sino.scom.device.scomdevice.ScomDevice" relationship="REALIZATION">
+      <point x="0.0" y="-853.5" />
+      <point x="2744.375" y="1510.0" />
+      <point x="2497.1805555555557" y="1510.0" />
+      <point x="0.0" y="391.5" />
+    </edge>
+    <edge source="sino.scom.dman.devicenotifier.DeviceNotifier" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="607.0" y="672.0" />
+      <point x="2482.625" y="672.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="sino.scom.baseframe.BaseFrame" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-182.0" />
+      <point x="1401.0" y="672.0" />
+      <point x="2482.625" y="672.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="Exception" target="BaseException" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="sino.scom.frame.Frame" target="sino.scom.baseframe.BaseFrame" relationship="REALIZATION">
+      <point x="-61.25" y="-160.5" />
+      <point x="1565.0" y="1510.0" />
+      <point x="1401.0" y="1510.0" />
+      <point x="0.0" y="182.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.14154029140648228" showDependencies="false" x="2242.0" y="1671.5000000000005" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
