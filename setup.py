@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-import sys, os
+import os
+
 import setuptools
 
 current_directory = os.path.abspath(os.path.dirname(__file__))
@@ -9,7 +10,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="XcomLAN",
-    version="0.0.01a",
+    version="0.0.1",
     author="Mustafa M. A. U. AbuGhazy",
     author_email="moustafa.abu.ghazy@gmail.com",
     maintainer_email="moustafa.abu.ghazy@gmail.com",
@@ -18,16 +19,17 @@ setuptools.setup(
                 "over a TCP/IP Network connection.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Mustafa-Abu-Ghazy/Xcom-LAN",
+    url="https://pypi.org/project/XcomLAN/",
     project_urls={
-        "Documentation": "https://github.com/Mustafa-Abu-Ghazy/Xcom-LAN/blob/master/README.md",
-        "Issues tracker": "https://github.com/Mustafa-Abu-Ghazy/Xcom-LAN/issues",
-        "Source Code": "https://github.com/Mustafa-Abu-Ghazy/Xcom-LAN",
+        "Documentation": "https://mustafa-abu-ghazy.github.io/XcomLAN/",
+        "Issues tracker": "https://github.com/mustafa-abu-ghazy/XcomLAN/issues",
+        "Source Code": "https://github.com/mustafa-abu-ghazy/XcomLAN",
     },
     packages=setuptools.find_packages(),
     # packages=['XcomLAN', 'XcomLAN.device', 'XcomLAN.node_manager', 'XcomLAN.thingsboard'],
     include_package_data=True,
     license="MIT",
+    platforms='any',
     classifiers=[
         "Development Status :: 4 - Beta",
 
@@ -62,7 +64,7 @@ setuptools.setup(
         "Topic :: Terminals :: Serial",
     ],
     python_requires=">=3.6",
-    install_requires=["scom==0.7.3", "Cython", "pyserial>=3.5"],
+    install_requires=["scom==0.7.3", "Cython", "pyserial>=3.5", "python-dotenv"],
     extras_require={
         'ThingsBoard': ['tb-mqtt-client'],
     },
