@@ -1,0 +1,20 @@
+digraph "XcomLAN.device.base_device.BaseDevice"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="XcomLAN.device.base\l_device.BaseDevice",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="XcomLAN.device.bsp.BSP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/db7/class_xcom_l_a_n_1_1device_1_1bsp_1_1_b_s_p.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="XcomLAN.device.rcc.RCC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d4e/class_xcom_l_a_n_1_1device_1_1rcc_1_1_r_c_c.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="XcomLAN.device.vario\l_string.VarioString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d66/class_xcom_l_a_n_1_1device_1_1vario__string_1_1_vario_string.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="XcomLAN.device.vario\l_track.VarioTrack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d23/class_xcom_l_a_n_1_1device_1_1vario__track_1_1_vario_track.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="XcomLAN.device.xtender.Xtender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/ddf/class_xcom_l_a_n_1_1device_1_1xtender_1_1_xtender.html",tooltip=" "];
+}

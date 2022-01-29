@@ -1,0 +1,10 @@
+digraph "XcomLAN.node_manager.node_observer.NodeObserver.node_name"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="XcomLAN.node_manager.node\l_observer.NodeObserver.node_name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="XcomLAN.node_manager.node\l_observer.NodeObserver.node\l_manager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dda/class_xcom_l_a_n_1_1node__manager_1_1node__observer_1_1_node_observer.html#a23807848c8c2b606647023e5b24a0f22",tooltip=" "];
+}

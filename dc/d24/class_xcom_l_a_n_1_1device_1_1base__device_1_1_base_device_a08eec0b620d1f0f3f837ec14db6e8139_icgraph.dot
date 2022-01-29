@@ -1,0 +1,11 @@
+digraph "XcomLAN.device.base_device.BaseDevice.node_name"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="XcomLAN.device.base\l_device.BaseDevice.node_name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="XcomLAN.device.base\l_device.BaseDevice.\l__init__",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#ab78d8c534ec3125c67aae7ca76139260",tooltip=" "];
+  Node2 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
