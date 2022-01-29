@@ -56,9 +56,9 @@ class Scom(scom.Scom):
 
             # Set RX timeout
             self._ser.timeout = 1  # second
-        except Exception as msg:
-            self.log.info(msg)
-            exit()
+        except Exception as e:
+            self.log.exception(e)
+            raise e
 
 # -------------------------------------------------------------------------------------------------------------------- #
 # ------------------------------------------------  End of Scom Class  ----------------------------------------------- #

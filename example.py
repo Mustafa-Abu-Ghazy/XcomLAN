@@ -9,6 +9,7 @@ Xtender device found the software version is then print out.
 
 Then loop on them to read the required infos/telemetry from (XT, VT, BSP) devices and push it to ThingsBoard
 """
+import copy
 import logging
 import os
 import threading
@@ -101,7 +102,7 @@ def get_list_of_user_infos_of_interest(device):
     list_of_user_infos_of_interest_for_single_xt = [3090, 3113, 3116, 3098, 3097, 3110, 3122,
                                                     3010, 3028, 3020, 3086, 3054, 3055, 3092,
                                                     3095, 3119, 3101, 3103]
-    # list_of_user_infos_of_interest_for_multicast_xt = list(XTENDER_INFOS.keys()) # ????
+    # list_of_user_infos_of_interest_for_multicast_xt = list(XTENDER_INFOS.keys()) # Succeed for group of one XT
     list_of_user_infos_of_interest_for_multicast_xt = []
 
     # list_of_user_infos_of_interest_for_single_vt = list(VARIO_TRACK_INFOS.keys())  # Succeed
@@ -153,20 +154,27 @@ if __name__ == "__main__":
 
     nodes_observers = []
     for node_name, node_dict in NODES_LIST.items():
-        if node_dict["interface"]:
-            # Prepare SCOM Node Configuration
-            config = XCOM_LAN_CONFIG_TEMPLATE
-            config["scom"]["interface"] = node_dict.get("interface")
-            # Create node manager detecting devices on the SCOM bus
-            node_manager = NodeManager(node_name=node_name, config=config)
-            # Create observer waiting for NodeManager notifications
-            node_observer = NodeObserver(node_manager)
-            nodes_observers.append(node_observer)
+        try:
+            # Try to create NodeManager & NodeObserver and connect to the interface
+            if node_dict["interface"]:
+                # Prepare SCOM Node Configuration
+                config = XCOM_LAN_CONFIG_TEMPLATE
+                config["scom"]["interface"] = node_dict.get("interface")
+                # Create node manager detecting devices on the SCOM bus
+                node_manager = NodeManager(node_name=node_name, config=config)
+                # Create observer waiting for NodeManager notifications
+                node_observer = NodeObserver(node_manager)
+                nodes_observers.append(node_observer)
+        except Exception as e:
+            logging.error("Can't connect to the node: " + node_name)
+            logging.exception(e)
 
     # This loop reads the required infos from (XT, VT, BSP) and push it to ThingsBoard
     while True:
         for node_observer in nodes_observers:
-            for device_address, device in node_observer.connected_devices.items():
+            # Use Copy to avoid "RuntimeError: dictionary changed size during iteration"
+            connected_devices = copy.copy(node_observer.connected_devices)
+            for device_address, device in connected_devices.items():
                 thread = threading.Thread(target=invoke_read_user_infos_as_telemetry, args=(
                     things_board_client,
                     node_observer.node_name,
