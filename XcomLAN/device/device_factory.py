@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This file contains definition/implementation of a DeviceFactory Class responsible for creating all the different devices

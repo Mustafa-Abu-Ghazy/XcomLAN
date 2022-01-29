@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # coding=utf-8
 """
 Sub-Package contains Implementation of the all required device creation and representation for all device types

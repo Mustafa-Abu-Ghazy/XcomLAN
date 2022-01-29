@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This file contains definition/implementation of the Connection-Class that Handles the SCOM serial connection.

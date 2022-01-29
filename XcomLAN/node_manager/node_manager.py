@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This file contains definition/implementation of a NodeManager Class that Manages the Devices found on the SCOM bus.

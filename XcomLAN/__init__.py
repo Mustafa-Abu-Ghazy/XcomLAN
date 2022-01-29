@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This Package contains definition/implementation of an enhanced version of the hesso-valais/scom package

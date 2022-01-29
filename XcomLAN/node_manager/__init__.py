@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # coding=utf-8
 """
 Sub-Package contains Implementation of the all required for managing a Xcom-LAN/Xcom-232i SCOM Node

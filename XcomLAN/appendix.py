@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # coding=utf-8
 """
 This file contains all the information within the  Xtender serial protocol appendix document
