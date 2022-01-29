@@ -7,11 +7,13 @@
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Package &lt;strong&gt;XcomLAN&lt;/strong&gt;"><param name="Local" value="index.html"><param name="ImageNumber" value="11"></OBJECT>
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="Prerequisites"><param name="Local" value="index.html#autotoc_md0"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="Getting Started"><param name="Local" value="index.html#autotoc_md1"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="Warnings"><param name="Local" value="index.html#autotoc_md2"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="Authors"><param name="Local" value="index.html#autotoc_md3"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="License"><param name="Local" value="index.html#autotoc_md4"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="External References:"><param name="Local" value="index.html#autotoc_md5"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Installation"><param name="Local" value="index.html#autotoc_md1"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Getting Started"><param name="Local" value="index.html#autotoc_md2"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Warnings"><param name="Local" value="index.html#autotoc_md3"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Authors"><param name="Local" value="index.html#autotoc_md4"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="License"><param name="Local" value="index.html#autotoc_md5"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Credits"><param name="Local" value="index.html#autotoc_md6"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="External References:"><param name="Local" value="index.html#autotoc_md7"><param name="ImageNumber" value="11"></OBJECT>
   </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="LICENSE"><param name="Local" value="d2/d35/md__l_i_c_e_n_s_e.html"><param name="ImageNumber" value="11"></OBJECT>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Namespaces"><param name="Local" value="namespaces.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -20,26 +22,22 @@
     <UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="example"><param name="Local" value="d3/daf/namespaceexample.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="get_list_of_user_infos_of_interest"><param name="Local" value="d3/daf/namespaceexample.html#a224bb56b2ec055147ede4b7faea2de0e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="invoke_read_user_infos_as_telemetry"><param name="Local" value="d3/daf/namespaceexample.html#a0cb6109c221cff9508e0015a972390f2"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="config"><param name="Local" value="d3/daf/namespaceexample.html#aeb66a773b6bc042dfdd560705eec7e5f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="connected_devices"><param name="Local" value="d3/daf/namespaceexample.html#ac0cb50f2edbe0af9e698bd56e9abb8c8"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="datefmt"><param name="Local" value="d3/daf/namespaceexample.html#a880246a229a077cd010887b25fc1cee2"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="format"><param name="Local" value="d3/daf/namespaceexample.html#adde564d6707b88c5c755dff01f1c19f1"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="GATEWAY_Access_TOKEN"><param name="Local" value="d3/daf/namespaceexample.html#a3dac2a76ce436dd7a80b4e287d1f6755"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="GATEWAY_Access_TOKEN"><param name="Local" value="d3/daf/namespaceexample.html#a9ba7a7b83cfb0fc86e7ecc250b8707e8"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="level"><param name="Local" value="d3/daf/namespaceexample.html#ad865720397adafe53479de0828057c0e"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest"><param name="Local" value="d3/daf/namespaceexample.html#aa669707dd8bc128d2680fb09c77a96a8"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_vs"><param name="Local" value="d3/daf/namespaceexample.html#a66e2b6a95bc41b82c226d8d703b29bf0"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_vt"><param name="Local" value="d3/daf/namespaceexample.html#ab2c4bd236259784d5b69b17e52ba325b"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_xt"><param name="Local" value="d3/daf/namespaceexample.html#a3cf22465e26baaba1d1720a7b3fe01e4"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_single_bsp"><param name="Local" value="d3/daf/namespaceexample.html#a9a23aa2fb10241cfa8219da914739bf1"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_single_vs"><param name="Local" value="d3/daf/namespaceexample.html#a7692e75ff6d785672b8faffecd77d318"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_single_vt"><param name="Local" value="d3/daf/namespaceexample.html#a7ac3615d26aa7a6ff550857f00e64f48"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_single_xt"><param name="Local" value="d3/daf/namespaceexample.html#a230df1481aae0996c967bfa6e5de97d4"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="node_manager"><param name="Local" value="d3/daf/namespaceexample.html#a7bc216ec2d046a9d26100637f124af87"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="node_observer"><param name="Local" value="d3/daf/namespaceexample.html#a577cab869db092fa1ae6bb2bc6e0f39c"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="NODES_LIST"><param name="Local" value="d3/daf/namespaceexample.html#a32791148f55dfa05136e19df7186a74c"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="nodes_observers"><param name="Local" value="d3/daf/namespaceexample.html#a7ecd9efed19d21d71d4bda1990f8448a"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="READINGS_DELAY_IN_SECONDS"><param name="Local" value="d3/daf/namespaceexample.html#af793be413ca49da5d5a7e283450f96dd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="READINGS_DELAY_IN_SECONDS"><param name="Local" value="d3/daf/namespaceexample.html#ac6b7385489d7df9cafd2dab3f71370bf"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="things_board_client"><param name="Local" value="d3/daf/namespaceexample.html#a450685d4b2b87df4cb3530c58bb8d5ba"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="THINGSBOARD_SERVER"><param name="Local" value="d3/daf/namespaceexample.html#a48ee6beb4a24528e65f852955f4f1015"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="THINGSBOARD_SERVER"><param name="Local" value="d3/daf/namespaceexample.html#a141e4fb8f0372166fe775bd55b05175a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="thread"><param name="Local" value="d3/daf/namespaceexample.html#a3d158d1190135c478c0979a81d7490c7"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="XCOM_LAN_CONFIG_TEMPLATE"><param name="Local" value="d3/daf/namespaceexample.html#a92a3b6b71aac47bb543b2404675136bf"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="setup"><param name="Local" value="dd/dc4/namespacesetup.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -337,9 +335,10 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="__init__"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#abeeba637a96a29f9c0c9e78536ce54b1"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="__del__"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a14b9177a12c31919418b2c91bebd94cf"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="node_profile"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a31358f38a7cd981233e8a5f56b838b5b"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="node_telemetry_enqueue"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a2d0b47813ac61cc12acadef57cc356a3"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="push_csv_input_to_tb"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#acd9b717d4d923de7bbd475b048c16bee"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="send_node_attributes"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#af0e9c56125d1a2155a6918bec6c33463"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="send_node_telemetry"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a959021ba988c56a8fac357cc72ad8365"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="send_node_telemetry"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#aa077c78d13c66e288fc703f603ff02fb"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="log"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a6a4321d207c1db22451fccf614be547b"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
           </UL>
@@ -349,6 +348,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Name" value="Namespace Members"><param name="Local" value="namespacemembers.html"><param name="ImageNumber" value="11"></OBJECT>
     <UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="namespacemembers.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="namespacemembers_func.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="Variables"><param name="Local" value="namespacemembers_vars.html"><param name="ImageNumber" value="11"></OBJECT>
     </UL>
   </UL>
@@ -543,9 +543,10 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="__init__"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#abeeba637a96a29f9c0c9e78536ce54b1"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="__del__"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a14b9177a12c31919418b2c91bebd94cf"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="node_profile"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a31358f38a7cd981233e8a5f56b838b5b"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="node_telemetry_enqueue"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a2d0b47813ac61cc12acadef57cc356a3"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="push_csv_input_to_tb"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#acd9b717d4d923de7bbd475b048c16bee"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="send_node_attributes"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#af0e9c56125d1a2155a6918bec6c33463"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="send_node_telemetry"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a959021ba988c56a8fac357cc72ad8365"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="send_node_telemetry"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#aa077c78d13c66e288fc703f603ff02fb"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="log"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a6a4321d207c1db22451fccf614be547b"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
           </UL>
@@ -832,9 +833,10 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="__init__"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#abeeba637a96a29f9c0c9e78536ce54b1"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="__del__"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a14b9177a12c31919418b2c91bebd94cf"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="node_profile"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a31358f38a7cd981233e8a5f56b838b5b"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="node_telemetry_enqueue"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a2d0b47813ac61cc12acadef57cc356a3"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="push_csv_input_to_tb"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#acd9b717d4d923de7bbd475b048c16bee"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="send_node_attributes"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#af0e9c56125d1a2155a6918bec6c33463"><param name="ImageNumber" value="11"></OBJECT>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="send_node_telemetry"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a959021ba988c56a8fac357cc72ad8365"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="send_node_telemetry"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#aa077c78d13c66e288fc703f603ff02fb"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="log"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a6a4321d207c1db22451fccf614be547b"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
           </UL>
@@ -877,26 +879,22 @@
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="example.py"><param name="Local" value="d5/d0b/example_8py.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="get_list_of_user_infos_of_interest"><param name="Local" value="d5/d0b/example_8py.html#a224bb56b2ec055147ede4b7faea2de0e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="invoke_read_user_infos_as_telemetry"><param name="Local" value="d5/d0b/example_8py.html#a0cb6109c221cff9508e0015a972390f2"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="config"><param name="Local" value="d5/d0b/example_8py.html#aeb66a773b6bc042dfdd560705eec7e5f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="connected_devices"><param name="Local" value="d5/d0b/example_8py.html#ac0cb50f2edbe0af9e698bd56e9abb8c8"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="datefmt"><param name="Local" value="d5/d0b/example_8py.html#a880246a229a077cd010887b25fc1cee2"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="format"><param name="Local" value="d5/d0b/example_8py.html#adde564d6707b88c5c755dff01f1c19f1"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="GATEWAY_Access_TOKEN"><param name="Local" value="d5/d0b/example_8py.html#a3dac2a76ce436dd7a80b4e287d1f6755"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="GATEWAY_Access_TOKEN"><param name="Local" value="d5/d0b/example_8py.html#a9ba7a7b83cfb0fc86e7ecc250b8707e8"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="level"><param name="Local" value="d5/d0b/example_8py.html#ad865720397adafe53479de0828057c0e"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest"><param name="Local" value="d5/d0b/example_8py.html#aa669707dd8bc128d2680fb09c77a96a8"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_vs"><param name="Local" value="d5/d0b/example_8py.html#a66e2b6a95bc41b82c226d8d703b29bf0"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_vt"><param name="Local" value="d5/d0b/example_8py.html#ab2c4bd236259784d5b69b17e52ba325b"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_xt"><param name="Local" value="d5/d0b/example_8py.html#a3cf22465e26baaba1d1720a7b3fe01e4"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_single_bsp"><param name="Local" value="d5/d0b/example_8py.html#a9a23aa2fb10241cfa8219da914739bf1"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_single_vs"><param name="Local" value="d5/d0b/example_8py.html#a7692e75ff6d785672b8faffecd77d318"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_single_vt"><param name="Local" value="d5/d0b/example_8py.html#a7ac3615d26aa7a6ff550857f00e64f48"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="list_of_user_infos_of_interest_for_single_xt"><param name="Local" value="d5/d0b/example_8py.html#a230df1481aae0996c967bfa6e5de97d4"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="node_manager"><param name="Local" value="d5/d0b/example_8py.html#a7bc216ec2d046a9d26100637f124af87"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="node_observer"><param name="Local" value="d5/d0b/example_8py.html#a577cab869db092fa1ae6bb2bc6e0f39c"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="NODES_LIST"><param name="Local" value="d5/d0b/example_8py.html#a32791148f55dfa05136e19df7186a74c"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="nodes_observers"><param name="Local" value="d5/d0b/example_8py.html#a7ecd9efed19d21d71d4bda1990f8448a"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="READINGS_DELAY_IN_SECONDS"><param name="Local" value="d5/d0b/example_8py.html#af793be413ca49da5d5a7e283450f96dd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="READINGS_DELAY_IN_SECONDS"><param name="Local" value="d5/d0b/example_8py.html#ac6b7385489d7df9cafd2dab3f71370bf"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="things_board_client"><param name="Local" value="d5/d0b/example_8py.html#a450685d4b2b87df4cb3530c58bb8d5ba"><param name="ImageNumber" value="11"></OBJECT>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="THINGSBOARD_SERVER"><param name="Local" value="d5/d0b/example_8py.html#a48ee6beb4a24528e65f852955f4f1015"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="THINGSBOARD_SERVER"><param name="Local" value="d5/d0b/example_8py.html#a141e4fb8f0372166fe775bd55b05175a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="thread"><param name="Local" value="d5/d0b/example_8py.html#a3d158d1190135c478c0979a81d7490c7"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="XCOM_LAN_CONFIG_TEMPLATE"><param name="Local" value="d5/d0b/example_8py.html#a92a3b6b71aac47bb543b2404675136bf"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="setup.py"><param name="Local" value="da/dab/setup_8py.html"><param name="ImageNumber" value="1"></OBJECT>

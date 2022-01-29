@@ -18,7 +18,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XcomLAN<span id="projectnumber">&#160;0.0.1a1</span>
+   <div id="projectname">XcomLAN<span id="projectnumber">&#160;0.0.1</span>
    </div>
   </td>
  </tr>
@@ -48,18 +48,81 @@ $(function() {
 Prerequisites</h1>
 <p >Please read the complete documentation available on : Studer Innotec SA -&gt; Support -&gt; Download Center -&gt; Software and Updates -&gt; Communication protocols Xcom-232i</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
+Installation</h1>
+<p >The Package can be installed from the Python package manager. Simply execute in a console the following command:</p>
+<div class="fragment"><div class="line">$ pip install XcomLAN</div>
+</div><!-- fragment --><p >or , if you will use the attached ThingsBoardClient</p>
+<div class="fragment"><div class="line">$ pip install XcomLAN[ThingsBoard]</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md2"></a>
 Getting Started</h1>
-<h1><a class="anchor" id="autotoc_md2"></a>
-Warnings</h1>
+<ul>
+<li>copy the example code <a href="https://github.com/Mustafa-Abu-Ghazy/XcomLAN/blob/master/example.py">example.py</a></li>
+<li>setup the Xcom-232i device in Xcom-LAN mode.</li>
+<li>configure the MOXA-NPort Operation Mode</li>
+</ul>
+<div class="fragment"><div class="line">Test Succeed:</div>
+<div class="line">    # MOXA-NPort Operation Mode: RFC2217</div>
+<div class="line">    &quot;interface&quot;: &quot;rfc2217://&lt;host&gt;:&lt;port&gt;&quot;,</div>
+<div class="line">Test Failed:</div>
+<div class="line">    # MOXA-NPort Operation Mode: TCP Server</div>
+<div class="line">    &quot;interface&quot;: &quot;socket://&lt;host&gt;:&lt;port&gt;&quot;,</div>
+<div class="line">Test Succeed:</div>
+<div class="line">    # MOXA-NPort Operation Mode: TCP Server,</div>
+<div class="line">    # And Use Any COM Mapping Tool like &quot;TCP-Com.exe&quot; as TCP-Client connects on &lt;host&gt;:&lt;port&gt;</div>
+<div class="line">    #       --&gt;{BaudRate: 115200, Parity: None, StopBits: 1, DataBits: 8}</div>
+<div class="line">    &quot;interface&quot;: &quot;&lt;SERIAL_VIRTUAL_PORT&gt;&quot;,</div>
+<div class="line">Test Succeed:</div>
+<div class="line">    # MOXA-NPort Operation Mode: RealCOM,</div>
+<div class="line">    # And Use MOXA drivers/COM Mapping Tool</div>
+<div class="line">    #       --&gt;{BaudRate: 115200, Parity: None, StopBits: 1, DataBits: 8}</div>
+<div class="line">    &quot;interface&quot;: &quot;&lt;SERIAL_VIRTUAL_PORT&gt;&quot;,</div>
+</div><!-- fragment --><ul>
+<li>define your own NODES_LIST</li>
+</ul>
+<div class="fragment"><div class="line">NODES_LIST = {</div>
+<div class="line">    <span class="stringliteral">&quot;N01&quot;</span>: {<span class="stringliteral">&quot;interface&quot;</span>: <span class="stringliteral">&quot;&lt;SERIAL_VIRTUAL_PORT&gt;&quot;</span>,</div>
+<div class="line">            <span class="comment"># ...</span></div>
+<div class="line">            },</div>
+<div class="line">    <span class="stringliteral">&quot;N02&quot;</span>: {<span class="stringliteral">&quot;interface&quot;</span>: <span class="stringliteral">&quot;rfc2217://&lt;host&gt;:&lt;port&gt;&quot;</span>,</div>
+<div class="line">            <span class="comment"># ...</span></div>
+<div class="line">            },</div>
+<div class="line">    <span class="stringliteral">&quot;N03&quot;</span>: {<span class="stringliteral">&quot;interface&quot;</span>: <span class="stringliteral">&quot;socket://&lt;host&gt;:&lt;port&gt;&quot;</span>,</div>
+<div class="line">            <span class="comment"># ...</span></div>
+<div class="line">            },</div>
+<div class="line">    <span class="comment"># ...</span></div>
+<div class="line">}</div>
+</div><!-- fragment --><ul>
+<li>create .env file like</li>
+</ul>
+<div class="fragment"><div class="line">THINGSBOARD_SERVER=&lt;your tb host&gt;&gt;</div>
+<div class="line">GATEWAY_Access_TOKEN=&lt;your tb gatway-device access-token&gt;</div>
+<div class="line"> </div>
+<div class="line">READINGS_DELAY_IN_SECONDS=60</div>
+</div><!-- fragment --><ul>
+<li>run the script, and start to design your own TB dashboards based on the received telemetry</li>
+<li>the examble code by default have some infos of interst per device type, and address ranges for devices to be discovered. it will auto discover all possible XT, VT, VS, BSP device in the node.</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md3"></a>
+Warnings</h1>
+<ul>
+<li>make sure scom package has been installed successfully, you might be required to move the two files from the site-packages directory to site-packages\sino\scom directory<ul>
+<li>baseframe.*.pyd|so</li>
+<li>property.*.pyd|so</li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md4"></a>
 Authors</h1>
 <ul>
 <li><b>Mustafa M. A. U. AbuGhazy</b></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md5"></a>
 License</h1>
 <p >This project is licensed under the MIT License - see the <code>LICENSE</code> file for details</p>
-<h1><a class="anchor" id="autotoc_md5"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
+Credits</h1>
+<p >Thanks for <a href="https://github.com/hesso-valais">HES-SO Valais-Wallis</a> for their great package <a href="https://pypi.org/project/scom/">scom</a>. As I've developed this package by inspiration of ** scom** and depend on it.</p>
+<h1><a class="anchor" id="autotoc_md7"></a>
 External References:</h1>
 <ul>
 <li><a href="https://www.studer-innotec.com">Studer-Innotec</a></li>

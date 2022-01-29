@@ -15,7 +15,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d76/class_xcom_l_a_n_1_1device_1_1device__type_1_1_device_type.html#a877e0759d4bbd35eed8b03aefb2e7d25"><param name="Name" value="COMPACT"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d2e/class_xcom_l_a_n_1_1node__manager_1_1node__manager_1_1_node_manager.html#a1cd672126e88b59b4fe3281e6321cabc"><param name="Name" value="DEFAULT_RX_BUFFER_SIZE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d1f/class_xcom_l_a_n_1_1property__format_1_1_property_format.html#afb2a38007e905baefd3c2ecbe5d8dcf5"><param name="Name" value="FLOAT"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a3dac2a76ce436dd7a80b4e287d1f6755"><param name="Name" value="GATEWAY_Access_TOKEN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a9ba7a7b83cfb0fc86e7ecc250b8707e8"><param name="Name" value="GATEWAY_Access_TOKEN"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d1f/class_xcom_l_a_n_1_1property__format_1_1_property_format.html#a2f30cd33153439688d6e64667359c068"><param name="Name" value="INT32"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d1f/class_xcom_l_a_n_1_1property__format_1_1_property_format.html#a6f7859b41f0e214c5078c08fed13e5bc"><param name="Name" value="INT32_SIGNAL"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d35/md__l_i_c_e_n_s_e.html"><param name="Name" value="LICENSE"></OBJECT>
@@ -35,10 +35,10 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d98/namespace_xcom_l_a_n_1_1device_1_1addresses.html#a186c7b172343fb6b406336c69d0bb8c8"><param name="Name" value="RCC_GROUP_DEVICE_ID"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d0e/namespace_xcom_l_a_n_1_1appendix.html#a73d7bb447f74ef99e058903f8229478f"><param name="Name" value="RCC_MESSAGES"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d0e/namespace_xcom_l_a_n_1_1appendix.html#a8c3e21cb55324c19641888698e2fba5d"><param name="Name" value="RCC_PARAMETERS"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#af793be413ca49da5d5a7e283450f96dd"><param name="Name" value="READINGS_DELAY_IN_SECONDS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#ac6b7385489d7df9cafd2dab3f71370bf"><param name="Name" value="READINGS_DELAY_IN_SECONDS"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d0e/namespace_xcom_l_a_n_1_1appendix.html#a8b22ea1b030be229b5c1f8e542e16a40"><param name="Name" value="S"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d1f/class_xcom_l_a_n_1_1property__format_1_1_property_format.html#ac05377a4b828767d992dc86af2fa728b"><param name="Name" value="SHORT_ENUM"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a48ee6beb4a24528e65f852955f4f1015"><param name="Name" value="THINGSBOARD_SERVER"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a141e4fb8f0372166fe775bd55b05175a"><param name="Name" value="THINGSBOARD_SERVER"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d76/class_xcom_l_a_n_1_1device_1_1device__type_1_1_device_type.html#af2b5b7eb54e0eb591db73a059a6c72bc"><param name="Name" value="UNKNOWN"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d76/class_xcom_l_a_n_1_1device_1_1device__type_1_1_device_type.html#ab475110013635b3c6e0ad2cfae4f7d30"><param name="Name" value="VARIO_STRING"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d0e/namespace_xcom_l_a_n_1_1appendix.html#a147f76a9c51ea980c7b1d5fd8db00b02"><param name="Name" value="VARIO_STRING_INFOS"></OBJECT>
@@ -433,11 +433,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#ab0a1fe88729cec1f7528debf83a1386e"><param name="Name" value="device_address"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#af34323866544c16cc433f8f54fe12b5f"><param name="Name" value="device_address"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#af34323866544c16cc433f8f54fe12b5f"><param name="Name" value="device_address"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#ab0a1fe88729cec1f7528debf83a1386e"><param name="Name" value="device_address"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
   <UL>
@@ -931,6 +931,10 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html"><param name="Name" value="XcomLAN::thingsboard::thingsboard_client::ThingsBoardClient"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a2d0b47813ac61cc12acadef57cc356a3"><param name="Name" value="node_telemetry_enqueue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html"><param name="Name" value="XcomLAN::thingsboard::thingsboard_client::ThingsBoardClient"></OBJECT>
+  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#acd9b717d4d923de7bbd475b048c16bee"><param name="Name" value="push_csv_input_to_tb"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html"><param name="Name" value="XcomLAN::thingsboard::thingsboard_client::ThingsBoardClient"></OBJECT>
@@ -939,7 +943,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html"><param name="Name" value="XcomLAN::thingsboard::thingsboard_client::ThingsBoardClient"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a959021ba988c56a8fac357cc72ad8365"><param name="Name" value="send_node_telemetry"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#aa077c78d13c66e288fc703f603ff02fb"><param name="Name" value="send_node_telemetry"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="db/dda/class_xcom_l_a_n_1_1node__manager_1_1node__observer_1_1_node_observer.html#a81867885ed01c37dfd70fe2a2834eaa7"><param name="Name" value="__del__"></OBJECT>
   <UL>
@@ -995,32 +999,39 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#abe96a9c38c1c61f9f0fdb002c482f785"><param name="Name" value="classifiers"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#aeb66a773b6bc042dfdd560705eec7e5f"><param name="Name" value="config"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="db/dda/class_xcom_l_a_n_1_1node__manager_1_1node__observer_1_1_node_observer.html#af08fdfbd1ec831af415420221c495bf6"><param name="Name" value="connected_devices"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/dda/class_xcom_l_a_n_1_1node__manager_1_1node__observer_1_1_node_observer.html#af08fdfbd1ec831af415420221c495bf6"><param name="Name" value="XcomLAN::node_manager::node_observer::NodeObserver"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#ac0cb50f2edbe0af9e698bd56e9abb8c8"><param name="Name" value="connected_devices"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#ac0cb50f2edbe0af9e698bd56e9abb8c8"><param name="Name" value="example"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/de2/class_xcom_l_a_n_1_1device_1_1device__factory_1_1_device_factory.html#a4ffbbf649dc6dafb387af8f86f1e8355"><param name="Name" value="create"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#aa5d6e9b9882b1aac7edda0d33ebcd039"><param name="Name" value="current_directory"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a880246a229a077cd010887b25fc1cee2"><param name="Name" value="datefmt"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#aedf461ec52a946bda975938ba0b93ec0"><param name="Name" value="description"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d2e/class_xcom_l_a_n_1_1node__manager_1_1node__manager_1_1_node_manager.html#a738d6668f03a1ea8107ef0491727dd80"><param name="Name" value="destroy"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#af34323866544c16cc433f8f54fe12b5f"><param name="Name" value="device_address"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#af34323866544c16cc433f8f54fe12b5f"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#ab0a1fe88729cec1f7528debf83a1386e"><param name="Name" value="device_address"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#ab0a1fe88729cec1f7528debf83a1386e"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#aad636ab1f83f56acfc66b97899cfe3e7"><param name="Name" value="device_type"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#af34323866544c16cc433f8f54fe12b5f"><param name="Name" value="device_address"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#aad636ab1f83f56acfc66b97899cfe3e7"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#af34323866544c16cc433f8f54fe12b5f"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#acddee6e759bd39800a6e1e2cf3cd5013"><param name="Name" value="device_type"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#acddee6e759bd39800a6e1e2cf3cd5013"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#aad636ab1f83f56acfc66b97899cfe3e7"><param name="Name" value="device_type"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#aad636ab1f83f56acfc66b97899cfe3e7"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#a443be2d01fd539bf6761aff70724d876"><param name="Name" value="encoding"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a3dac2a76ce436dd7a80b4e287d1f6755"><param name="Name" value="GATEWAY_Access_TOKEN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a9ba7a7b83cfb0fc86e7ecc250b8707e8"><param name="Name" value="GATEWAY_Access_TOKEN"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
   <UL>
@@ -1028,11 +1039,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#af793be413ca49da5d5a7e283450f96dd"><param name="Name" value="READINGS_DELAY_IN_SECONDS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#ac6b7385489d7df9cafd2dab3f71370bf"><param name="Name" value="READINGS_DELAY_IN_SECONDS"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a48ee6beb4a24528e65f852955f4f1015"><param name="Name" value="THINGSBOARD_SERVER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a141e4fb8f0372166fe775bd55b05175a"><param name="Name" value="THINGSBOARD_SERVER"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
   <UL>
@@ -1044,6 +1055,10 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#ac0cb50f2edbe0af9e698bd56e9abb8c8"><param name="Name" value="connected_devices"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
+  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a880246a229a077cd010887b25fc1cee2"><param name="Name" value="datefmt"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
@@ -1052,39 +1067,15 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a224bb56b2ec055147ede4b7faea2de0e"><param name="Name" value="get_list_of_user_infos_of_interest"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a0cb6109c221cff9508e0015a972390f2"><param name="Name" value="invoke_read_user_infos_as_telemetry"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
+  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#ad865720397adafe53479de0828057c0e"><param name="Name" value="level"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#aa669707dd8bc128d2680fb09c77a96a8"><param name="Name" value="list_of_user_infos_of_interest"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a66e2b6a95bc41b82c226d8d703b29bf0"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_vs"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#ab2c4bd236259784d5b69b17e52ba325b"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_vt"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a3cf22465e26baaba1d1720a7b3fe01e4"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_xt"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a9a23aa2fb10241cfa8219da914739bf1"><param name="Name" value="list_of_user_infos_of_interest_for_single_bsp"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a7692e75ff6d785672b8faffecd77d318"><param name="Name" value="list_of_user_infos_of_interest_for_single_vs"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a7ac3615d26aa7a6ff550857f00e64f48"><param name="Name" value="list_of_user_infos_of_interest_for_single_vt"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a230df1481aae0996c967bfa6e5de97d4"><param name="Name" value="list_of_user_infos_of_interest_for_single_xt"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
   <UL>
@@ -1102,9 +1093,14 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a450685d4b2b87df4cb3530c58bb8d5ba"><param name="Name" value="things_board_client"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html"><param name="Name" value="example"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a3d158d1190135c478c0979a81d7490c7"><param name="Name" value="thread"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#a5081a5a3f9d0dee597ab99a7fdc362df"><param name="Name" value="extras_require"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#adde564d6707b88c5c755dff01f1c19f1"><param name="Name" value="format"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d2e/class_xcom_l_a_n_1_1node__manager_1_1node__manager_1_1_node_manager.html#ac1e4caa225dd00310d5db8cba7d518c9"><param name="Name" value="get_instances_of_category"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a224bb56b2ec055147ede4b7faea2de0e"><param name="Name" value="get_list_of_user_infos_of_interest"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d2e/class_xcom_l_a_n_1_1node__manager_1_1node__manager_1_1_node_manager.html#afc13a389dda1116cfdb77582a84a720f"><param name="Name" value="get_number_of_instances"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d76/class_xcom_l_a_n_1_1device_1_1device__type_1_1_device_type.html#af1c869d4df390b406e740ae364c9abb2"><param name="Name" value="get_reference_search_object_id"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d76/class_xcom_l_a_n_1_1device_1_1device__type_1_1_device_type.html#a2c562ece5a2c31118e088e5bace7d2cf"><param name="Name" value="has_value"></OBJECT>
@@ -1118,17 +1114,10 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#a35139105b25ef46629d31888bad595d8"><param name="Name" value="include_package_data"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/df8/class_xcom_l_a_n_1_1scom_1_1_scom.html#ae47e30fc0e03f5cf9af177d82802c11b"><param name="Name" value="initialize"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#abead4f26b530856f858f0d44c7cf2588"><param name="Name" value="install_requires"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a0cb6109c221cff9508e0015a972390f2"><param name="Name" value="invoke_read_user_infos_as_telemetry"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#a1e7bf5f03fecd320230a17e385f2a5f2"><param name="Name" value="is_multicast_device"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#ad865720397adafe53479de0828057c0e"><param name="Name" value="level"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#a8ed6f50a28bd6a8794f8e1153baa6de9"><param name="Name" value="license"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#aa669707dd8bc128d2680fb09c77a96a8"><param name="Name" value="list_of_user_infos_of_interest"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a66e2b6a95bc41b82c226d8d703b29bf0"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_vs"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#ab2c4bd236259784d5b69b17e52ba325b"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_vt"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a3cf22465e26baaba1d1720a7b3fe01e4"><param name="Name" value="list_of_user_infos_of_interest_for_multicast_xt"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a9a23aa2fb10241cfa8219da914739bf1"><param name="Name" value="list_of_user_infos_of_interest_for_single_bsp"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a7692e75ff6d785672b8faffecd77d318"><param name="Name" value="list_of_user_infos_of_interest_for_single_vs"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a7ac3615d26aa7a6ff550857f00e64f48"><param name="Name" value="list_of_user_infos_of_interest_for_single_vt"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a230df1481aae0996c967bfa6e5de97d4"><param name="Name" value="list_of_user_infos_of_interest_for_single_xt"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#a6ddd7f4a66f75aac468e1f7cf257320a"><param name="Name" value="log"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#a6ddd7f4a66f75aac468e1f7cf257320a"><param name="Name" value="XcomLAN::device::base_device::BaseDevice"></OBJECT>
@@ -1199,6 +1188,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a577cab869db092fa1ae6bb2bc6e0f39c"><param name="Name" value="node_observer"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a31358f38a7cd981233e8a5f56b838b5b"><param name="Name" value="node_profile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a2d0b47813ac61cc12acadef57cc356a3"><param name="Name" value="node_telemetry_enqueue"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a7ecd9efed19d21d71d4bda1990f8448a"><param name="Name" value="nodes_observers"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="db/dda/class_xcom_l_a_n_1_1node__manager_1_1node__observer_1_1_node_observer.html#a35fe619741caef873b66e492581a997b"><param name="Name" value="on_device_connected"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="db/dda/class_xcom_l_a_n_1_1node__manager_1_1node__observer_1_1_node_observer.html#a2a35ca9470a9203c09adf9ecc51c5fd5"><param name="Name" value="on_device_disconnected"></OBJECT>
@@ -1217,7 +1207,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#a0dc8889fb059ac30330986db90ad894c"><param name="Name" value="read_user_infos_as_telemetry"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d2e/class_xcom_l_a_n_1_1node__manager_1_1node__manager_1_1_node_manager.html#a94bbb4d56b80153374b1f9fdc675f809"><param name="Name" value="remove_all_devices"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#af0e9c56125d1a2155a6918bec6c33463"><param name="Name" value="send_node_attributes"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#a959021ba988c56a8fac357cc72ad8365"><param name="Name" value="send_node_telemetry"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d26/class_xcom_l_a_n_1_1thingsboard_1_1thingsboard__client_1_1_things_board_client.html#aa077c78d13c66e288fc703f603ff02fb"><param name="Name" value="send_node_telemetry"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d24/class_xcom_l_a_n_1_1device_1_1base__device_1_1_base_device.html#ab4c7ec8cf25a9857a7639ea3f541a36c"><param name="Name" value="set_user_infos_table"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html"><param name="Name" value="setup"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html"><param name="Name" value="setup"></OBJECT>
@@ -1304,6 +1294,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d2e/class_xcom_l_a_n_1_1node__manager_1_1node__manager_1_1_node_manager.html#a602bee30adfadf3130b1daaa314b3e7e"><param name="Name" value="stop_thread"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d2e/class_xcom_l_a_n_1_1node__manager_1_1node__manager_1_1_node_manager.html#a3fc05fe7e5602ce5c57c673610f5f7af"><param name="Name" value="subscribe"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a450685d4b2b87df4cb3530c58bb8d5ba"><param name="Name" value="things_board_client"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/daf/namespaceexample.html#a3d158d1190135c478c0979a81d7490c7"><param name="Name" value="thread"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d2e/class_xcom_l_a_n_1_1node__manager_1_1node__manager_1_1_node_manager.html#a3cab8581b95e6d0ec8fa1b9d8044c800"><param name="Name" value="unsubscribe"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#afc13124aa5c0124e84e1d965e3f4b0fb"><param name="Name" value="url"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/dc4/namespacesetup.html#a2aa722b36a933088812b50ea79b97a5c"><param name="Name" value="version"></OBJECT>
