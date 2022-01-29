@@ -5,14 +5,13 @@
 This file contains definition/implementation of a ThingsBoardClient Class
 that Manages dealing with / pushing data to ThingsBoard server.
 """
-# TODO: enhance this file documentation
-# TODO: enhance exceptions handling
 
 import csv
 import logging
 import re
-
+import threading
 from datetime import datetime
+from queue import Queue
 from time import sleep
 from time import time
 
@@ -34,8 +33,16 @@ class ThingsBoardClient(TBGatewayMqttClient):
         super(ThingsBoardClient, self).__init__(host, token, port, gateway, quality_of_service)
         self._node_profile = node_profile
         self.log = logging.getLogger(__name__ + ":" + self._node_profile)
-        # Initialize and Connect The Gateway Device
-        self.connect()
+
+        # Initializing a Telemetry Queue
+        self._telemetry_queue = Queue()
+        self._telemetry_restored_queue = Queue()
+
+        # Initializing and Start a Thread to server the stored telemetry information
+        self._thread = threading.Thread(target=self._send_nodes_telemetry_loop)
+        self._thread.name = self.__class__.__name__ + self._thread.name
+        self._thread.setDaemon(True)
+        self._thread.start()
 
     def __del__(self):
         self.disconnect()
@@ -44,22 +51,60 @@ class ThingsBoardClient(TBGatewayMqttClient):
     def node_profile(self):
         """
         Returns the Node Profile.
-
-        :return:
         """
         return self._node_profile
 
+    def node_telemetry_enqueue(self, node_name, timestamp, telemetry_values):
+        """
+        enqueue method add the telemetry's information to the _telemetry_queue queue to be served in order by
+        the _send_nodes_telemetry_loop method thread.
+        """
+        self._telemetry_queue.put({
+            "node_name": node_name,
+            "timestamp": timestamp,
+            "telemetry_values": telemetry_values
+        })
+
+    def _send_nodes_telemetry_loop(self):
+        """
+        This method designed to be executed as a separate thread
+        """
+        log = logging.getLogger(__name__ + ":" + "send_nodes_telemetry_loop")
+        while True:
+            if self._telemetry_restored_queue.qsize():
+                telemetry = self._telemetry_restored_queue.get()
+            else:
+                telemetry = self._telemetry_queue.get()
+            try:
+                # Try to connect to the Server if not connected yet
+                if not self.is_connected():
+                    self.connect()
+                # Try sending telemetry to the server
+                self.send_node_telemetry(
+                    node_name=telemetry["node_name"],
+                    timestamp=telemetry["timestamp"],
+                    telemetry_values=telemetry["telemetry_values"]
+                )
+            except Exception as e:
+                self._telemetry_restored_queue.put(telemetry)  # Restore the telemetry back to the restored_queue
+                log.exception(e)  # log the exception
+                sleep(30)  # Sleep 30 Seconds
+
     # telemetry === UserInfo
-    def send_node_telemetry(self, node_name, telemetry_values):
+    def send_node_telemetry(self, node_name, timestamp, telemetry_values):
+        """
+        Sending Telemetry of node to TB Server
+        """
         log = logging.getLogger(__name__ + ":" + self.node_profile + ":" + node_name)
 
-        # Connect The Device
+        # Connect The Device: ThingsBoard will publish updates for this particular device to this Gateway.
+        # Used only to ensure creating the device with the proper device_type if not exist.
         # device_type: will be used only when creating not existing device
         self.gw_connect_device(node_name, device_type=self.node_profile)
 
         # Sending Telemetry Data (UserInfo) to TB Device
         telemetry = {  # Contains JSON/Dict
-            'ts': int(round(time() * 1000)),
+            'ts': timestamp,
             'values': telemetry_values
         }
         result = self.gw_send_telemetry(node_name, telemetry)
@@ -71,9 +116,13 @@ class ThingsBoardClient(TBGatewayMqttClient):
 
     # attribute === Parameter
     def send_node_attributes(self, node_name, attributes_values):
+        """
+        Sending Attributes of node to TB Server
+        """
         log = logging.getLogger(__name__ + ":" + self.node_profile + ":" + node_name)
 
-        # Connect The Device
+        # Connect The Device: ThingsBoard will publish updates for this particular device to this Gateway.
+        # Used only to ensure creating the device with the proper device_type if not exist.
         # device_type: will be used only when creating not existing device
         self.gw_connect_device(node_name, device_type=self.node_profile)
 
@@ -126,6 +175,12 @@ class ThingsBoardClient(TBGatewayMqttClient):
             return value
 
     def push_csv_input_to_tb(self, node_name, csv_log_file_path, feed_as_realtime=False):
+        """
+        Read Telemetry from CSV file of node and Push them  to TB Server
+
+        :param feed_as_realtime: if set the Telemetry will be parsed and send as a realtime
+         neglecting the stored timestamp
+        """
         log = logging.getLogger(__name__ + ":" + self.node_profile + ":" + node_name)
 
         # Connect The Device

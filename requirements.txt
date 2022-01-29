@@ -17,4 +17,6 @@ scom==0.7.3     # Microsoft Visual C++ 14.0 or greater is required.
 pyserial        # pyserial==3.5   # required for scom package
 Cython          # Cython==0.29.26 # required for scom package
 tb-mqtt-client  # tb-mqtt-client==1.2
+
+python-dotenv # python-dotenv==0.19.2
 # ======================================================================================================================
