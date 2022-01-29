@@ -86,6 +86,11 @@ Warnings
   - baseframe.*.pyd|so
   - property.*.pyd|so
 
+TODO
+----
+- enhance documentations
+- add full features list
+
 Authors
 -------
 
