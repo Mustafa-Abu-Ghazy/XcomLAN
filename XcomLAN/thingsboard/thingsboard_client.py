@@ -59,6 +59,17 @@ class ThingsBoardClient(TBGatewayMqttClient):
         enqueue method add the telemetry's information to the _telemetry_queue queue to be served in order by
         the _send_nodes_telemetry_loop method thread.
         """
+        valid_node_name = type(node_name) is str
+        valid_timestamp = type(timestamp) is int
+        valid_telemetry_values = type(telemetry_values) is dict and len(telemetry_values)
+        if not (valid_node_name and valid_timestamp and valid_telemetry_values):
+            self.log.error("Invalid telemetry information to be added to the queue. (" +
+                           "node_name= " + str(node_name) + ", " +
+                           "timestamp= " + str(timestamp) + ", " +
+                           "telemetry_values= " + str(telemetry_values) + ")"
+                           )
+            return
+
         self._telemetry_queue.put({
             "node_name": node_name,
             "timestamp": timestamp,

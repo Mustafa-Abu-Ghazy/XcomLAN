@@ -214,6 +214,12 @@ class BaseDevice(object):
                 _prefix += str(8)
             elif self.device_address == XT_9_DEVICE_ID:
                 _prefix += str(9)
+            elif self.device_address == XT_L1:
+                _prefix += "L1"
+            elif self.device_address == XT_L2:
+                _prefix += "L2"
+            elif self.device_address == XT_L3:
+                _prefix += "L3"
         elif self.device_type == DeviceType.VARIO_TRACK:
             _prefix += 'VT'
             if self.device_address == VT_GROUP_DEVICE_ID:
@@ -292,7 +298,10 @@ class BaseDevice(object):
             in self._userInfosTable
             if user_info_id in list_of_user_infos_of_interest
         }
-        print(telemetry_values)
+        telemetry_values_none = {key: value for key, value in telemetry_values.items() if value is None}
+        if len(telemetry_values_none):
+            self.log.warning("Get None value for the following user_infos", telemetry_values_none.keys())
+            telemetry_values = {key: value for key, value in telemetry_values.items() if value is not None}
         return telemetry_values
 
     @classmethod
